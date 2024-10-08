@@ -1,0 +1,1697 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+    /* border: 1px solid red; */
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    /* background-color: #000000; */
+    font-family: "Nanum Gothic", sans-serif;
+
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h6,
+p {
+    text-wrap: balance;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #be9c79;
+    --secondaryColor: #660600;
+    --darkColor: #330300;
+    --lightColor: #ff0f00;
+    --regularFont: 1.6rem;
+    --headingFont: 54px;
+    --ffPrimary: "Raleway", sans-serif;
+
+
+}
+
+/* Default code Ends here */
+
+/* project standard classes Starts */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentSpacing {
+    padding: 3rem 0;
+}
+
+/* project standard classes Ends */
+.dflex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dflex-col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.dflex-start{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+    flex-direction: column;
+}
+.dflex-start-one{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+
+
+.dflex-start2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    text-align: center;
+}
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 3rem;
+}
+
+.componentsapcing {
+    padding: 3rem 0;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.grid-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.grid-5 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.grid-10 {
+    display: grid;
+    grid-template-columns: 2fr 4fr 1fr;
+}
+
+.grid-12{
+   display: grid;
+   grid-template-columns: 1fr 1fr 2fr;
+}
+
+/*::: HEADER CODE STARTS HERE::: */
+
+/* .navContainer{
+    background-color: #00ffff;
+} */
+
+/* .navBar{
+    background-color: #a07875;
+} */
+
+.navBody{
+    /* background-color: #8a2be2; */
+    max-width: 1300px;
+    margin: auto;
+}
+
+.navTopBody{
+    background-color: #ee2f2f;
+    padding: 1rem 0rem;
+}
+.navIcons{
+    display: flex;
+    gap: 2.5rem;
+    font-size: 2rem;
+    margin-left: 5rem;
+    padding-left: 7rem;
+
+}
+.navIcons li{
+    list-style: none;
+}
+.navIcons a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.phoneli{
+    display: flex;
+    justify-content: space-around;
+    gap: 8rem;
+    font-size: 14px;
+    margin-left: 15rem;
+}
+
+.phoneli li{
+    list-style-type: none;
+}
+
+.phoneli i{
+    gap: 2rem;
+    color: #ffffff;
+}
+
+.phoneli li a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logolink{
+    /* background-color: brown; */
+    padding: 2rem 0rem 0rem 0rem;
+    width: 100%;
+    margin-right: 30rem;
+}
+
+.ceiyone img{
+    height: 40px;
+    padding: 0rem 0rem 0rem 0rem;
+}
+
+.navLink{
+    /* background-color: #1cd36e; */
+    padding: 2rem 10rem 2rem 3rem;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.navLink li{
+    list-style-type: none;
+    /* background-color: #8a2be2; */
+    padding: 0rem 3rem;
+}
+
+.navLink li a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.8rem; 
+    font-weight: 700;
+    margin-right: 1rem;
+}
+.navLink li a i{
+    color: #000000;
+    /* padding-right: 0.45rem; */
+}
+
+.logolink button {
+    padding:1rem 0rem;
+    width: 15rem;
+    background-color: #eb3a3a;
+    list-style-type: none;
+    border: none;
+}
+
+.logolink button a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.heroSection {
+    background-image: url(assestes/images/herosection.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 800px;
+    width: 100%;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    /* background-color: #ff11006e; */
+    padding: 18rem 30rem 0rem 7rem;
+}
+
+.jumbotron h1{
+    color: #ffffff;
+    font-size: 2rem;
+}
+
+.jumbotron p{
+    color: #ffffff;
+    font-size: 8rem;
+    font-weight: 800;
+    padding: 0rem 0rem 14rem 0rem;
+}
+
+
+.jumbotron button {
+    padding:2rem 0rem;
+     width: 15rem;
+    background-color: #eb3a3a;
+    list-style-type: none;
+    border: none;
+}
+
+.jumbotron button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.jumbotron button:hover {
+    background-color: #c925bb;
+}
+
+/*::: HEADER CODE ENDS HERE::: */
+
+/*::: MAIN CODE STARTS HERE::: */
+
+.softWarecompanyContainer{
+    /* background-color: #00ffff; */
+    padding: 0rem 0rem 0rem 7rem;
+}
+
+/* .software{
+    background-color: #a52a2a;
+} */
+
+/* .softwareHeadingBody{
+    background-color: #be9c79;
+} */
+
+/* .softWareText{
+    background-color: #8a2be2;
+} */
+
+.softWareText h2{
+    /* background-color: #74e22b; */
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #eb3a3a;   
+}
+
+.softWareText h4{
+   font-size: 3.5rem;
+   font-weight: 800;
+}
+
+.softWareText p{
+    font-size: 1.5rem;
+    /* background-color: #74e22b; */
+    padding: 0rem 10rem 0rem 0rem;
+}
+.image{
+height: 50%;
+}
+.image img{
+    width: 80%;
+}
+
+.softwareimg1{
+    margin-bottom: 5rem;
+}
+.softwareimg2{
+    margin-top:20rem;
+}
+
+.softwareimg3 img{
+    height: 800px;
+    padding: 0rem 0rem 0rem 6rem;
+}
+/* .ourServiceContainer{
+    background-color: #c925bb;
+} */
+
+/* .ourService{
+    background-color: #ff0f00;
+} */
+
+/* .ourServiceHeadingBody{
+    background-color: #7fffd4;
+} */
+
+/* 
+.ourServicetext{
+    background-color: #be9c79;
+} */
+
+.ourServicetext h4{
+    /* background-color: #a7eb3a; */
+    font-size: 2rem;
+    font-weight: 700;
+    color: #eb3a3a;
+}
+
+/* .ourserviceHeadingBody1{
+    background-color: #0000ff;
+    
+} */
+
+.ourServiceText1{
+    /* background-color: cadetblue; */
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.ourServiceText1 p{
+    /* background-color: #be9c79; */
+    font-size: 4rem;
+    font-weight: 800;
+    padding: 0rem 30rem 0rem 0rem;
+}
+
+
+.ourServiceText1 button {
+    padding:2rem 0rem;
+     width: 15rem;
+    background-color: #eb3a3a;
+    list-style-type: none;
+    border: none;
+}
+
+.ourServiceText1 button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.ourServicesBody{
+    /* background-color: #00ffff; */
+    background-image: url(assestes/images/background\ img.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.ourServicesCard1{
+    /* background-color: #a7eb3a; */
+    padding: 3rem 2rem;  
+}
+
+.ourServiceCOL{
+/* background-color: #660600; */
+  padding: 5rem 3rem 5rem 3rem ;
+  box-shadow: rgba(0, 0, 0, 0.281) 0px 1px 4px;
+  
+}
+.ourServicesCard1 i{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard1 h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard1 p{
+    font-size: 1.5rem;
+    /* background-color: #cf3b30; */
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard2{
+    /* background-color: #a7eb3a; */
+    padding: 3rem 2rem;
+}
+
+.ourServicesCard2 i{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard2 h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard2 p{
+    font-size: 1.5rem;
+    /* background-color: #cf3b30; */
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard3{
+    /* background-color: #a7eb3a; */
+    padding: 3rem 2rem;
+}
+
+.ourServicesCard3 i{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard3 h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard3 p{
+    font-size: 1.5rem;
+    /* background-color: #cf3b30; */
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard4{
+    /* background-color: #a7eb3a; */
+    padding: 3rem 2rem;
+}
+
+.ourServicesCard4 i{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard4 h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard4 p{
+    font-size: 1.5rem;
+    /* background-color: #cf3b30; */
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard5{
+    /* background-color: #a7eb3a; */
+    padding: 3rem 2rem;
+}
+
+.ourServicesCard5 i{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard5 h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard5 p{
+    font-size: 1.5rem;
+    /* background-color: #cf3b30; */
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard6{
+    /* background-color: #a7eb3a; */
+    padding: 3rem 2rem;
+}
+
+.ourServicesCard6 i{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard6 h4{
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard6 p{ 
+    font-size: 1.5rem;
+    /* background-color: #cf3b30; */
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.whyChooseContainer{
+    background-color: #f06969;
+    padding: 0rem 5rem;
+}
+
+/* .whyChoose{
+    background-color: #c925bb;
+} */
+
+/* .whyChooseHeadingBody{
+    background-color: #00ffff;
+} */
+
+/* .whyChooseText{
+    background-color: #ffe4c4;
+} */
+
+.whyChooseText h3{
+    /* background-color: #5c5cbd; */
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #ffffff54;
+}
+
+.whyChooseText p{
+    /* background-color: #a52a2a; */
+    font-size: 4rem;
+    font-weight: 600; 
+    display: flex;
+    color: #ffffff;
+}
+
+.whyChooseBody{
+    /* background-color: #648b8b; */
+    padding: 3rem 0rem 15rem 0rem;
+}
+
+.weInnovate{
+    /* background-color: #00ffff; */
+    padding: 5rem 2rem;
+    
+}
+
+.weInnovate h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.weInnovate p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+.complexIt{
+    /* background-color: #22bb40; */
+    padding: 5rem 2rem;
+}
+
+.complexIt h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.complexIt p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+.flexible{
+    /* background-color: #3e22bb; */
+    padding: 5rem 2rem ;
+}
+
+.flexible h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.flexible p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+
+.assureQuality{
+    /* background-color: #e61616; */
+    padding: 5rem 2rem ;
+}
+
+.assureQuality h4{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #ffffff;
+}
+
+.assureQuality p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: #ffffff;
+}
+
+.borderbox{
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    padding: 6rem 4rem ;
+    background-color: #e23636d8;
+}
+
+/* .yearsExperienceContainer{
+    background-color: #be9c79;
+} */
+
+.cardimgsix {
+    background-image: url(assestes/images/siximg.jpg);
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;    
+    height: 270px;
+    width: 45%;
+}
+
+.cardsixtext{
+    /* background-color: #d67718; */
+    padding: 3rem 0rem 0rem 3rem;
+}
+
+.cardsixtext h2{
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.cardsixtext h5{
+    font-size: 2.2rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.cardsixtext p{
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+.cardimgnine{
+    background-image: url(assestes/images/nineimg.jpg);
+    background-repeat:no-repeat ;
+    background-position: center center;
+    background-size: cover;  
+    height: 270px;
+    width: 45%;
+}
+
+.cardninetext{
+    /* background-color: #d67718; */
+    padding: 3rem 0rem 0rem 3rem;
+}
+.cardninetext h2{
+    font-size: 5rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.cardninetext h5{
+    font-size: 2.2rem;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.cardninetext p{
+    font-size: 1.3rem;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.yearsExperienceContainer{
+    position: relative;
+}
+
+.cardimgsix{
+    position: absolute;
+    top: -20rem;
+}
+
+.cardimgnine{
+    position: absolute;
+    top: -20rem;
+    left: 60rem;
+}
+
+.companyTrueContainer{
+    /* background-color: #be9c79; */
+    padding: 6rem 0rem 0rem 0rem;
+}
+
+.companyTrue{
+    background-image: url(assestes/images/handshake.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    width: 100%;
+}
+
+/* .companyTrueBody{
+    background-color: #ff0f00;
+} */
+
+.companyTrueText{
+    /* background-color: #660600; */
+    padding: 4rem 0rem 0rem 6rem;
+}
+
+.companyTrueText h2{
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.companyTrueText p{
+    color: #ffffff;
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+
+.companyTrueBody button {
+    padding:1.5rem 0rem;
+     width: 15rem;
+    background-color: #eb3a3a;
+    list-style-type: none;
+    border: none;
+}
+
+.companyTrueBody button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.businessIndustriesContainer{
+    background-color: #ffffffb4;
+}
+
+.businessIndustries{
+    /* background-color: #be9c79; */
+    padding: 8rem 0rem;
+}
+
+/* .businessIndustriesHeadingBody{
+    background-color: #ff0f00;
+} */
+
+/* .bussinessText{
+    background-color: #00ffff;
+} */
+
+.bussinessText h2{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #ee2f2f;
+}
+
+.bussinessText h5{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
+
+.industriesBody{
+    /* background-color: #b89593; */
+    gap: 3rem;
+    padding: 3rem 4rem 0rem 0rem;
+}
+.industriesCard{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 5rem 5rem 5rem 2rem;
+}
+
+.industriesCardleft{
+    /* background-color: #be9c79; */
+    padding: 0rem 6rem 0rem 0rem;
+}
+.industriesCardleft img{
+    max-width:200%;
+    height: 130px;
+}
+
+.industriesRight h3{
+     font-size: 1.8rem;
+     font-weight: 900;
+     margin-bottom: 1rem;
+}
+
+.industriesRight p{
+    font-size: 1.2rem;
+    padding: 0rem 5rem 0rem 0rem;
+    font-weight: 200;
+    margin-bottom: 2rem;
+}
+
+/* .contactusimgContainer{
+    background-color: #be9c79;
+} */
+
+.contactusimg{
+    background-image: url(assestes/images/contactus.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 450px;
+    width: 100%;
+}
+
+.contactimgBody{
+    /* background-color: #660600; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+/* .contactimgText {
+    background-color: #c925bb;
+} */
+
+.contactimgText h2{
+    font-size: 2.5rem;
+    font-weight: 200;
+    color: #ffffff;
+}
+
+.contactimgText p{
+    font-size: 7rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+
+.contactimgText button {
+    padding:1.5rem 0rem;
+     width: 15rem;
+    background-color: #eb3a3a;
+    list-style-type: none;
+    border: none;
+    margin-top: 1rem;
+}
+
+.contactimgText button a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/*::: MAIN CODE ENDS HERE::: */
+
+
+/*::: FOOTER CODE STARTS HERE::: */
+
+/* .contactContainer{
+    background-color: #be9c79;
+  
+} */
+
+/* .contact{
+    background-color: #660600;
+} */
+
+/* .contactBody{
+    background-color: #eb3a3a;
+} */
+
+.contactimg{
+    /* background-color: #bd6814; */
+    padding: 5rem 0rem 4rem 0rem;
+
+}
+
+.contacttext{
+    background-color: #eb3a3a;
+    padding: 4rem 0rem 4rem 0rem;
+
+}
+
+.contacttext p{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.contactbutton{
+    background-color: #eb3a3a;
+    padding: 4rem 0rem 7rem 0rem;
+
+}
+
+.contactbutton button{
+   padding:1.3rem 0rem;
+   width: 12rem;
+   background-color:#ffffff;
+   list-style-type: none;
+   border-radius:2rem;
+   margin-top: 1rem;
+   border: none;
+}
+
+.contactbutton button a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+/* .companyServicesContainer{
+   background-color: #be9c79;
+} */
+
+.companyServices{
+    background-image: url(assestes/images/bg-footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.companyServicesBody{
+    /* background-color: #eb3a3a; */
+    padding: 2rem 0 0 0;
+}
+
+/* .aboutCompany{
+    background-color: #7fffd4;
+} */
+
+.aboutCompanyHeading h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.bussiness p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.address p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.number p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.email p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServices{
+    /* background-color: #c925bb; */
+    padding: 0rem 0rem 8rem 0rem;
+}
+
+.ourServices h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.techseven{
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.techseven li{
+    list-style-type: none;
+}
+
+.techseven a{
+    font-size: 1.3rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.newsLetter{
+    /* background-color: #7fffd4; */
+    padding: 0rem 0rem 15rem 0rem;
+}
+
+.subsribe h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+
+.emailAdress input{
+    height: 3.5rem;
+    width: 24.9rem;
+    padding: 0 0 0 2rem;
+    margin-bottom: 3rem;
+
+}
+.emailAdress button{
+    height: 3.5rem;
+    width: 100px;
+    background-color: #44b0e2;
+    border: none;
+    margin-bottom: 3rem;
+}
+
+.emailAdress button a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+.sociallink{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+}
+.sociallink li{
+    list-style: none;
+}
+
+.icons i{
+    font-size: 2rem;
+    color: #00000096;
+    margin-bottom: 2rem;
+}
+
+.copyRightContainer{
+    background-color: #eb3a3a;
+}
+
+.CopyRightText h3{
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+#check{
+    display: none;
+}
+.checkbtn{
+    display: none;
+}
+/*::: FOOTER CODE ENDS HERE::: */
+
+
+
+@media(width <=576px) {
+    .grid-1,.grid-2,.grid-10,.grid-12,.grid-3,.grid-4,.grid-5,.grid-6{
+        grid-template-columns: 1fr;
+    }
+
+    .navTopBody{
+        padding: 1rem 0rem;
+    }
+    .navIcons{
+        display: flex;
+        gap: 2.5rem;
+        font-size: 1.5rem;
+        margin-top: 0rem;
+        padding: 0rem 0rem 0rem 0rem;
+    
+    }
+    .phoneli{
+        margin-left: 10rem;
+        margin-bottom: 0rem;
+    }
+
+    .logolink{
+        /* background-color: brown; */
+        padding: 0rem 0rem 0rem 0rem;
+        width: 100%;
+        margin-top: 0rem;
+    }
+    
+    .checkbtn{
+        color:rgb(221, 23, 23);
+        font-size: 25px;
+        /* margin-right: 10px; */
+        padding: 4px 5px 1px 5px;
+        /* display: none; */
+        border-radius: 5px;
+        border: 2px solid white;
+        margin-left: 30px;
+    }
+    .navLink{
+        margin: 0;
+        padding: 0;
+        background-color: rgb(255, 255, 255);
+        position: absolute;
+        top: 135px;
+        flex-direction: column;
+        display: none;
+        height: 300px;
+        width: 100%;
+    }
+
+    .navLink li{
+        /* background-color: rgb(132, 12, 12); */
+        height: 24.5%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .logolink button{
+        display: none;
+    }
+
+    .navLink li:hover{
+        background-color: rgb(229, 135, 135);
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    #check:checked~.navLink {
+        display: flex;
+    }
+
+    
+.heroSection {
+    height: 500px;
+    width: 100%;
+}
+
+.jumbotron {
+    padding:2rem;
+    margin-top: 6rem;
+}
+
+.jumbotron h1{
+    font-size: 2rem;
+}
+
+.jumbotron p{
+    font-size: 4rem;
+    font-weight: 800;
+    padding:0rem;
+}
+
+
+.jumbotron button {
+    padding:1rem 0rem;
+     width: 12rem;
+     margin-top: 1.5rem;
+}
+
+.softWarecompanyContainer{
+    padding: 0rem 0rem 0rem 2rem;
+}
+
+.softWareText h2{
+    font-size: 2rem;
+    font-weight: 700;   
+}
+
+.softWareText h4{
+   font-size: 2rem;
+   font-weight: 800;
+}
+
+.softWareText p{
+    font-size: 1.6rem;
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.softwareimg1{
+    margin-top: 25rem;
+}
+
+.softwareimg1 img{
+    height: 400px;
+    width: 100rem;
+    padding: 0rem 2rem 0rem 0rem;
+}
+
+.softwareimg2 img{
+height: 400px;
+width: 100rem;
+padding: 0rem 2rem 0rem 0rem;
+}
+
+.softwareimg3 img{
+    height: 800px;
+    padding: 0rem 0rem 0rem 0rem;
+    width: 100%;
+}
+
+.ourServicetext h4{
+    /* background-color: #a7eb3a; */
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.ourServiceText1{
+    padding: 0rem;
+}
+
+.ourServiceText1 p{
+    /* background-color: #be9c79; */
+    font-size: 2.8rem;
+    font-weight: 800;
+    padding: 1rem 0rem 0rem 0rem;
+}
+
+.ourServicesCard1{
+    padding: 0rem 0rem;
+    margin-top: 5rem;  
+}
+
+.ourServicesCard1 i{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard1 h4{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard1 p{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard2{
+    padding: 3rem 0rem;
+}
+
+.ourServicesCard2 i{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard2 h4{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard2 p{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard3{
+    padding: 0rem 0rem;
+}
+
+.ourServicesCard3 i{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard3 h4{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard3 p{
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard4{
+    padding: 3rem 0rem;
+}
+
+.ourServicesCard4 i{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard4 h4{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard4 p{
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard5{
+    padding: 0rem 0rem;
+}
+
+.ourServicesCard5 i{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard5 h4{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard5 p{
+    margin-bottom: 1.5rem;
+}
+
+
+.ourServicesCard6{
+    padding: 3rem 0rem;
+}
+
+.ourServicesCard6 i{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard6 h4{
+    margin-bottom: 1.5rem;
+}
+
+.ourServicesCard6 p{ 
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.whyChooseText h3{
+    font-size: 1.8rem;
+}
+
+.whyChooseText p{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.whyChooseBody{
+    padding: 3rem 0rem 20rem 0rem;
+}
+
+.weInnovate{
+    padding: 2rem 2rem;    
+}
+
+.complexIt{
+    padding: 2rem 2rem;
+}
+
+.flexible{
+    padding: 2rem 2rem ;
+}
+
+.assureQuality{
+    padding: 2rem 2rem ;
+}
+
+.cardsixtext h2{
+    font-size: 4rem;
+}
+
+.cardsixtext h5{
+    font-size: 2.2rem;
+}
+
+.cardsixtext p{
+    font-size: 1.2rem;
+}
+
+.cardninetext h2{
+    font-size: 4rem;
+}
+
+.cardninetext h5{
+    font-size: 2.2rem;
+}
+
+.cardninetext p{
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.cardimgnine{
+    position: absolute;
+    top: -20rem;
+    left: 30rem;
+}
+
+.companyTrue{
+    height: 350px;
+    width: 100%;
+}
+
+.companyTrueText{
+    padding: 4rem 0rem 0rem 3rem;
+}
+
+.companyTrueText p{
+    font-size: 3rem;
+}
+
+.companyTrueBody button {
+     width: 12rem;
+    margin-top: 1.5rem;
+}
+
+.industriesBody{
+    /* background-color: #b89593; */
+    gap: 3rem;
+    padding: 3rem 5rem 0rem 5rem;
+}
+
+.contactusimg{
+    height: 400px;
+    width: 100%;
+}
+
+.contactimgBody{
+    margin-top: 2rem;
+}
+
+.contactimgText{
+    margin-top: 8rem;
+}
+.contactimgText h2{
+    font-size: 1.6rem;
+}
+
+.contactimgText p{
+    font-size: 3rem;
+    margin-top: 1rem;
+}
+
+.contactimgText button {
+    padding:1.5rem 0rem;
+    width: 12rem;
+}
+
+.contactimg{
+    padding: 3rem 0rem;
+}
+
+.contacttext{
+    padding: 2rem 0rem 0rem 0rem;
+}
+
+.contacttext p{
+    font-size: 1.3rem;
+}
+
+.contactbutton{
+    padding: 0rem 0rem 2rem 0rem;
+}
+
+.contactbutton button{
+   width: 12rem;
+   margin-top: 1rem;
+}
+
+.companyServices{
+    background-image: url(assestes/images/bg-footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+}
+
+.companyServicesBody{
+    /* background-color: #eb3a3a; */
+    padding: 2rem 0 0 0;
+}
+
+/* .aboutCompany{
+    background-color: #7fffd4;
+} */
+
+.aboutCompanyHeading h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1.5rem;
+}
+
+.bussiness p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.address p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.number p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.email p{
+    font-size: 1.3rem;
+    margin-bottom: 1.5rem;
+}
+
+.ourServices{
+    /* background-color: #c925bb; */
+    padding: 0rem 0rem 8rem 0rem;
+}
+
+.ourServices h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.techseven{
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.techseven li{
+    list-style-type: none;
+}
+
+.techseven a{
+    font-size: 1.3rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+.newsLetter{
+    /* background-color: #7fffd4; */
+    padding: 0rem 0rem 15rem 0rem;
+}
+
+.subsribe h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 3rem;
+}
+
+.emailAdress input{
+    height: 3.5rem;
+    width: 24.9rem;
+    padding: 0 0 0 2rem;
+    margin-bottom: 3rem;
+
+}
+.emailAdress button{
+    height: 3.5rem;
+    width: 100px;
+    background-color: #44b0e2;
+    border: none;
+    margin-bottom: 3rem;
+}
+
+.emailAdress button a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+    color: #ffffff;
+}
+.sociallink{
+    display: flex;
+    justify-content:space-evenly;
+    gap: 20px;
+}
+.sociallink li{
+    list-style: none;
+}
+
+.icons i{
+    font-size: 2rem;
+    color: #00000096;
+    margin-bottom: 2rem;
+}
+
+.copyRightContainer{
+    background-color: #eb3a3a;
+}
+
+.CopyRightText h3{
+    font-size: 1.7rem;
+    color: #ffffff;
+    font-weight: 100;
+}
+
+.ourServices{
+    /* background-color: #c925bb; */
+    padding: 0rem 0rem 0rem 0rem;
+    align-items: flex-start;
+}
+
+.ourServices h3{
+    font-size: 3rem;
+    font-weight: 100;
+    margin-bottom: 1rem;
+}
+
+.techseven{
+    margin-right: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.techseven li{
+    list-style-type: none;
+}
+
+.techseven a{
+    font-size: 1.3rem;
+    color: #000000;
+    text-decoration: none;
+}
+
+
+}
